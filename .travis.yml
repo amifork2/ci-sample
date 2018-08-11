@@ -1,0 +1,16 @@
+language: go
+go: 1.10.x
+
+matrix:
+  include:
+    - os: linux
+      script:
+        - make
+        - make test
+      after_success:
+        - bash <(curl -s https://codecov.io/bash)
+
+    - os: osx
+      script:
+        - make
+        - make test

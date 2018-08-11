@@ -1,0 +1,18 @@
+version: "{build}"
+
+clone_folder: c:\gopath\src\github.com\amifork2\ci-sample
+
+environment:
+  GOPATH: c:\gopath
+  GOVERSION: 1.10.x
+
+install:
+  - go version
+  - go env
+
+build: false
+deploy: false
+
+test_script:
+  - go build
+  - go test -v -race ./ ./add ./sub

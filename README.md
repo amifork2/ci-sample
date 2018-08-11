@@ -8,5 +8,3 @@ CIのサンプル
 [![codebeat](https://codebeat.co/badges/3398a48e-14a8-4271-a867-b304a1484738?v=1)](https://codebeat.co/projects/github-com-amifork2-ci-sample-master)
 [![GoDoc](https://godoc.org/github.com/amifork2/ci-sample?status.png)](https://godoc.org/github.com/amifork2/ci-sample)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-
-

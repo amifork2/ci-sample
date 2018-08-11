@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/amifork2/sample/add"
-	"github.com/amifork2/sample/sub"
+	"github.com/amifork2/ci-sample/add"
+	"github.com/amifork2/ci-sample/sub"
 )
 
 func main() {
